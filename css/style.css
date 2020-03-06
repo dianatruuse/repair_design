@@ -335,7 +335,11 @@ template {
   .button--outline {
     border: 1px solid #fff;
     color: #fff;
-    background-color: transparent; }
+    background-color: transparent;
+    transition: 0.5s; }
+    .button--outline:hover {
+      background-color: #fff;
+      color: #131313; }
 
 .container {
   width: 88%;
