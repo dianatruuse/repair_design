@@ -415,7 +415,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 100px;
-  background: #131313 url(../img/hero-bg.jpg) no-repeat left/cover;
+  background: #131313 url(../img/hero-bg.jpg) no-repeat left 50px/cover;
   height: 707px;
   color: #fff; }
   .hero::before {
