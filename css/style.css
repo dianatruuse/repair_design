@@ -415,8 +415,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding-top: 100px;
-  padding-bottom: 100px;
-  background: #131313 url(../img/hero-bg.jpg) no-repeat center/cover;
+  background: #131313 url(../img/hero-bg.jpg) no-repeat left/cover;
   height: 707px;
   color: #fff; }
   .hero::before {
@@ -538,6 +537,6 @@ body {
     min-width: 22.86rem;
     margin-bottom: 1.85rem; } }
 
-@media screen and (max-height: 570px) {
+@media screen and (max-height: 520px) {
   .hero__scroll-down {
     display: none; } }
